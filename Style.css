@@ -1,69 +1,96 @@
-/* General Styles */
+ /* =============================
+    Base Styles
+============================= */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    background: #f5f5f5;
+    color: #1a1a1a;
 }
 
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 400;
+}
+
+/* =============================
+   Header
+============================= */
 header {
-    background-color: #1A73E8;
-    padding: 20px 0;
-    color: white;
+    background: #0d1b2a;
+    color: #fff;
     text-align: center;
+    padding: 60px 20px;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2em;
+    font-size: 2.5rem;
 }
 
-nav {
+header p {
+    font-size: 1.2rem;
     margin-top: 10px;
+    font-weight: 300;
+    font-style: italic;
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+/* =============================
+   Sections
+============================= */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Main Content */
-main {
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: auto;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Headings */
 h2 {
-    color: #1A73E8;
-    margin-top: 0;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 15px;
+    color: #0d1b2a;
     text-align: center;
-    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-/* Links */
-a {
-    color: #1A73E8;
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
 }
 
-a:hover {
+/* =============================
+   Project Samples
+============================= */
+.project {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Download Button */
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #0747a6;
+}
+
+/* =============================
+   Contact
+============================= */
+section a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+section a:hover {
     text-decoration: underline;
 }
