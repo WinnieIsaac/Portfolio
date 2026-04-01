@@ -1,3 +1,78 @@
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: lightgreen !important;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+  background-color: #1f3b57;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd369;
+}
+
+/* ===== HEADER ===== */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #1f3b57;
+}
+
+/* ===== LISTS ===== */
+ul {
+  padding-left: 20px;
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #1f3b57;
+}
+
+a:hover {
+  color: #ff6b6b;
 }
