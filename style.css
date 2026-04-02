@@ -1,10 +1,16 @@
+/* =========================
+   BASE STYLES
+========================= */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     text-align: center;
+    background: #ffffff;
 }
 
-/* NAVBAR */
+/* =========================
+   NAVBAR (ALL PAGES)
+========================= */
 .navbar {
     position: fixed;
     top: 0;
@@ -26,7 +32,9 @@ body {
     color: gray;
 }
 
-/* HERO */
+/* =========================
+   HERO SECTION (HOME)
+========================= */
 .hero {
     height: 60vh;
     background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");
@@ -55,12 +63,55 @@ body {
     z-index: 1;
 }
 
-/* SECTIONS */
+/* =========================
+   PAGE HEADER (ABOUT + CONTACT)
+========================= */
+.page-header {
+    margin-top: 80px;
+    padding: 40px 20px;
+    background: #f5f5f5;
+}
+
+.page-header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* =========================
+   SECTIONS (GLOBAL)
+========================= */
 .section {
     padding: 60px 20px;
 }
 
-/* BUTTONS */
+/* =========================
+   ABOUT PAGE
+========================= */
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* =========================
+   CONTACT PAGE
+========================= */
+#contact {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#contact p {
+    margin-bottom: 15px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
 .btn {
     display: inline-block;
     margin: 10px;
