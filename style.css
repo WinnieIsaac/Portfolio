@@ -4,7 +4,29 @@ body {
     text-align: center;
 }
 
-/* HERO SECTION */
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+/* HERO */
 .hero {
     height: 60vh;
     background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");
@@ -15,6 +37,7 @@ body {
     justify-content: center;
     color: white;
     position: relative;
+    margin-top: 60px;
 }
 
 .hero::after {
@@ -32,25 +55,12 @@ body {
     z-index: 1;
 }
 
-.hero h1 {
-    font-size: 40px;
-    margin: 0;
+/* SECTIONS */
+.section {
+    padding: 60px 20px;
 }
 
-.hero h2 {
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-.hero p {
-    font-size: 14px;
-}
-
-/* DOWNLOAD SECTION */
-.downloads {
-    margin-top: 40px;
-}
-
+/* BUTTONS */
 .btn {
     display: inline-block;
     margin: 10px;
